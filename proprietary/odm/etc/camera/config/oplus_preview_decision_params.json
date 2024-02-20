@@ -115,7 +115,10 @@
                 "APS_BRACKET_TR_PSL_STATIC",
                 "APS_BRACKET_TR_PSL_MOTION",
                 "APS_BRACKET_TR_PSL_MOTION2",
-                "APS_BRACKET_TR_PSL_DAYTIME_MOTION"
+                "APS_BRACKET_TR_PSL_DAYTIME_MOTION",
+                "APS_BRACKET_TR_PSL_STATIC_DRCGAIN",
+                "APS_BRACKET_HR_PSL",
+                "APS_BRACKET_TR_ZSL_STATIC"
             ],
             "valueType": "int",
             "dataType": "value"
@@ -367,7 +370,9 @@
                 "APS_BRACKET_TR_PSL_MOTION",
                 "APS_BRACKET_TR_PSL_MOTION2",
                 "APS_BRACKET_TR_PSL_DAYTIME_MOTION",
-                "APS_BRACKET_TR_PSL_STATIC_DRCGAIN"
+                "APS_BRACKET_TR_PSL_STATIC_DRCGAIN",
+                "APS_BRACKET_HR_PSL",
+                "APS_BRACKET_TR_ZSL_STATIC"
             ],
             "valueType": "int",
             "dataType": "value"
