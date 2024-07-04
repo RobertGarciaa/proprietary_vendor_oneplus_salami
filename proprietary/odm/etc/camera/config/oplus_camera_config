@@ -1771,6 +1771,13 @@
   "Count": "3",
   "Value": "1,2,3"
 
+},
+
+{
+  "VendorTag": "com.oplus.hsprofessional.watermark.ultrapicturesize.support",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
 }
 
 ]
