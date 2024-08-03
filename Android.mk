@@ -6,7 +6,7 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),salami)
 
-$(call add-radio-file-sha1-checked,radio/abl.img,b77d74cc29ba2582ea80510ca2c73e63b4f28623)
+$(call add-radio-file-sha1-checked,radio/abl.img,7d133383e8ea408c87f3fc5966c448da896994d9)
 $(call add-radio-file-sha1-checked,radio/aop.img,914538e6e4a48cda673f10f9e051046e35da430e)
 $(call add-radio-file-sha1-checked,radio/aop_config.img,44bea2b3f9720fa3aa2bbacf31123109e1e6a9e6)
 $(call add-radio-file-sha1-checked,radio/bluetooth.img,c80d89ae5027181ab7ba4bddf5e312d5e6687eb1)
