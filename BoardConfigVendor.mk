@@ -17,7 +17,6 @@ AB_OTA_PARTITIONS += \
     keymaster \
     modem \
     oplus_sec \
-    oplusstanvbk \
     qupfw \
     shrm \
     splash \
