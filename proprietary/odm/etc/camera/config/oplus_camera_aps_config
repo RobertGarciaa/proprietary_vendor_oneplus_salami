@@ -1,5 +1,5 @@
 {
-"file_version" : 14.020, // Andorid + version, 14.001 means Android 14 & version 001
+"file_version" : 14.021, // Andorid + version, 14.001 means Android 14 & version 001
 "file_data" : [
 
 {
@@ -1995,7 +1995,7 @@
   "VendorTag": "com.oplus.asd.uninit.support",
   "Type": "Int32",
   "Count": "1",
-  "Value": "1",
+  "Value": "1"
 },
 
 {
@@ -2019,6 +2019,20 @@
   "Count": "1",
   "Value": "1",
   "Comment": "support HardwareBuffer dataspace override, default:0"
+},
+
+{
+  "VendorTag": "com.ocs.camera.ipu.meishe.filter.support",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
+},
+
+{
+  "VendorTag": "com.oplus.aps.params.isIntervalshot.threshold",
+  "Type": "Int32",
+  "Count": "1",
+  "Value": "50"
 }
 ]
 }

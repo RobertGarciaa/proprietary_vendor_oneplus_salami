@@ -194,7 +194,9 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/salami/proprietary/odm/etc/sensor/config/kailua_mtp_freefall.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kailua_mtp_freefall.json \
     vendor/oneplus/salami/proprietary/odm/etc/sensor/config/kailua_mtp_icm4x6xx.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kailua_mtp_icm4x6xx.json \
     vendor/oneplus/salami/proprietary/odm/etc/sensor/config/kailua_mtp_mmc56x3x.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kailua_mtp_mmc56x3x.json \
+    vendor/oneplus/salami/proprietary/odm/etc/sensor/config/kailua_mtp_oplus_flight_detect.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kailua_mtp_oplus_flight_detect.json \
     vendor/oneplus/salami/proprietary/odm/etc/sensor/config/kailua_mtp_oplus_lay.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kailua_mtp_oplus_lay.json \
+    vendor/oneplus/salami/proprietary/odm/etc/sensor/config/kailua_mtp_pocket.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kailua_mtp_pocket.json \
     vendor/oneplus/salami/proprietary/odm/etc/sensor/config/kailua_mtp_sx933x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kailua_mtp_sx933x_0.json \
     vendor/oneplus/salami/proprietary/odm/etc/sensor/config/kailua_mtp_sx933x_down_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kailua_mtp_sx933x_down_0.json \
     vendor/oneplus/salami/proprietary/odm/etc/sensor/config/lux_aod.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/lux_aod.json \
