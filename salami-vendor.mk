@@ -185,6 +185,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/salami/proprietary/odm/etc/lvacfs_params/2mic/audiozoom_7.txt:$(TARGET_COPY_OUT_ODM)/etc/lvacfs_params/2mic/audiozoom_7.txt \
     vendor/oneplus/salami/proprietary/odm/etc/lvacfs_params/2mic/audiozoom_8.txt:$(TARGET_COPY_OUT_ODM)/etc/lvacfs_params/2mic/audiozoom_8.txt \
     vendor/oneplus/salami/proprietary/odm/etc/lvacfs_params/2mic/audiozoom_9.txt:$(TARGET_COPY_OUT_ODM)/etc/lvacfs_params/2mic/audiozoom_9.txt \
+    vendor/oneplus/salami/proprietary/odm/etc/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/mixer_paths.xml \
+    vendor/oneplus/salami/proprietary/odm/etc/resourcemanager.xml:$(TARGET_COPY_OUT_ODM)/etc/resourcemanager.xml \
     vendor/oneplus/salami/proprietary/odm/etc/sensor/config/kailua_mtp_ak0991x.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kailua_mtp_ak0991x.json \
     vendor/oneplus/salami/proprietary/odm/etc/sensor/config/kailua_mtp_alsps.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kailua_mtp_alsps.json \
     vendor/oneplus/salami/proprietary/odm/etc/sensor/config/kailua_mtp_alsps_hw_tcs3701.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kailua_mtp_alsps_hw_tcs3701.json \
@@ -202,6 +204,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/salami/proprietary/odm/etc/sensor/config/lux_aod.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/lux_aod.json \
     vendor/oneplus/salami/proprietary/odm/etc/sensor/config/salami_qrd_ois_system.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/salami_qrd_ois_system.json \
     vendor/oneplus/salami/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
+    vendor/oneplus/salami/proprietary/odm/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_ODM)/etc/usecaseKvManager.xml \
     vendor/oneplus/salami/proprietary/odm/etc/wifi/kiwi/bdwlan.b0a:$(TARGET_COPY_OUT_ODM)/etc/wifi/kiwi/bdwlan.b0a \
     vendor/oneplus/salami/proprietary/odm/etc/wifi/kiwi/bdwlan.b0e:$(TARGET_COPY_OUT_ODM)/etc/wifi/kiwi/bdwlan.b0e \
     vendor/oneplus/salami/proprietary/odm/etc/wifi/kiwi/bdwlan.b0i:$(TARGET_COPY_OUT_ODM)/etc/wifi/kiwi/bdwlan.b0i \
@@ -211,4 +214,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/salami/proprietary/odm/firmware/tp/22811/FW_S3908_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/22811/FW_S3908_SAMSUNG.img \
     vendor/oneplus/salami/proprietary/odm/firmware/tp/22811/FW_S3908_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/22811/FW_S3908_SAMSUNG_FAE.img \
     vendor/oneplus/salami/proprietary/odm/firmware/tp/22811/FW_S3908_SAMSUNG_sys_edge_touch_config.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/22811/FW_S3908_SAMSUNG_sys_edge_touch_config.img \
-    vendor/oneplus/salami/proprietary/odm/firmware/tp/22811/LIMIT_S3908_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/22811/LIMIT_S3908_SAMSUNG.img
+    vendor/oneplus/salami/proprietary/odm/firmware/tp/22811/LIMIT_S3908_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/22811/LIMIT_S3908_SAMSUNG.img \
+    vendor/oneplus/salami/proprietary/vendor/etc/card-defs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/card-defs.xml \
+    vendor/oneplus/salami/proprietary/vendor/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usecaseKvManager.xml
