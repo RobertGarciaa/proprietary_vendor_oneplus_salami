@@ -4743,7 +4743,7 @@
               {
                 "planCondition":{
                   "and":{
-                    "or":{
+                    "or2":{
                       "eq":[
                         "captureMode",
                         "APS_CAPMODE_REAR_NORMAL"
@@ -4761,11 +4761,23 @@
                       "isIZoomSupported",
                       true
                     ],
+                    "or":{
+                      "lt":[
+                        "fwkDrcIso",
+                        1600
+                      ],
+                      "and":{
+                        "gt":[
+                          "fwkDrcIso",
+                          1600
+                        ],
+                        "eq":[
+                          "paramsHolder->livephoto_enable",
+                          true
+                        ]
+                      }
+                    },
                     "lt":[
-                      "fwkDrcIso",
-                      1600
-                    ],
-                    "lt1":[
                       "fwkLuxIdx",
                       350
                     ]
