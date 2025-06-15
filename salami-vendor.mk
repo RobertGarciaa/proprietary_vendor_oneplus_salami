@@ -214,6 +214,4 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/salami/proprietary/odm/firmware/tp/22811/FW_S3908_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/22811/FW_S3908_SAMSUNG.img \
     vendor/oneplus/salami/proprietary/odm/firmware/tp/22811/FW_S3908_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/22811/FW_S3908_SAMSUNG_FAE.img \
     vendor/oneplus/salami/proprietary/odm/firmware/tp/22811/FW_S3908_SAMSUNG_sys_edge_touch_config.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/22811/FW_S3908_SAMSUNG_sys_edge_touch_config.img \
-    vendor/oneplus/salami/proprietary/odm/firmware/tp/22811/LIMIT_S3908_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/22811/LIMIT_S3908_SAMSUNG.img \
-    vendor/oneplus/salami/proprietary/vendor/etc/card-defs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/card-defs.xml \
-    vendor/oneplus/salami/proprietary/vendor/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usecaseKvManager.xml
+    vendor/oneplus/salami/proprietary/odm/firmware/tp/22811/LIMIT_S3908_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/22811/LIMIT_S3908_SAMSUNG.img
