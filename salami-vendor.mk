@@ -874,6 +874,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/salami/proprietary/odm/etc/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel.dat:$(TARGET_COPY_OUT_ODM)/etc/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel.dat \
     vendor/oneplus/salami/proprietary/odm/etc/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel.fw:$(TARGET_COPY_OUT_ODM)/etc/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel.fw \
     vendor/oneplus/salami/proprietary/odm/etc/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_ODM)/etc/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel.xml \
+    vendor/oneplus/salami/proprietary/odm/etc/libnfc-mtp-SN100.conf_22811:$(TARGET_COPY_OUT_ODM)/etc/libnfc-mtp-SN100.conf_22811 \
+    vendor/oneplus/salami/proprietary/odm/etc/libnfc-mtp-SN100.conf_22861:$(TARGET_COPY_OUT_ODM)/etc/libnfc-mtp-SN100.conf_22861 \
     vendor/oneplus/salami/proprietary/odm/etc/lvacfs_params/2mic/LVACFS_Calibration360_2mic.dat:$(TARGET_COPY_OUT_ODM)/etc/lvacfs_params/2mic/LVACFS_Calibration360_2mic.dat \
     vendor/oneplus/salami/proprietary/odm/etc/lvacfs_params/2mic/LVACFS_Configuration.txt:$(TARGET_COPY_OUT_ODM)/etc/lvacfs_params/2mic/LVACFS_Configuration.txt \
     vendor/oneplus/salami/proprietary/odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID10_MIC_VR.txt:$(TARGET_COPY_OUT_ODM)/etc/lvacfs_params/2mic/LVACFS_Parameter_ID10_MIC_VR.txt \
@@ -1014,7 +1016,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/salami/proprietary/vendor/etc/display/qdcm_calib_data_samsung_AMB670YF08_FS_dsc_cmd_mode_panel.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_samsung_AMB670YF08_FS_dsc_cmd_mode_panel.json \
     vendor/oneplus/salami/proprietary/vendor/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider-service_64.rc \
     vendor/oneplus/salami/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
-    vendor/oneplus/salami/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/oneplus/salami/proprietary/vendor/etc/ltm_config_samsung_AMB670YF07_CS_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_samsung_AMB670YF07_CS_dsc_cmd_mode_panel.xml \
     vendor/oneplus/salami/proprietary/vendor/etc/ltm_config_samsung_AMB670YF07_FS_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_samsung_AMB670YF07_FS_dsc_cmd_mode_panel.xml \
     vendor/oneplus/salami/proprietary/vendor/etc/ltm_config_samsung_AMB670YF08_CS_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_samsung_AMB670YF08_CS_dsc_cmd_mode_panel.xml \
