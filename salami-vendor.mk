@@ -1010,6 +1010,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/salami/proprietary/odm/vendor/firmware/uff_spi.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_spi.b07 \
     vendor/oneplus/salami/proprietary/odm/vendor/firmware/uff_spi.b08:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_spi.b08 \
     vendor/oneplus/salami/proprietary/odm/vendor/firmware/uff_spi.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_spi.mdt \
+    vendor/oneplus/salami/proprietary/product/etc/permissions/privapp-permissions-euiccgoogle.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-euiccgoogle.xml \
     vendor/oneplus/salami/proprietary/vendor/etc/display/qdcm_calib_data_samsung_AMB670YF07_CS_dsc_cmd_mode_panel.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_samsung_AMB670YF07_CS_dsc_cmd_mode_panel.json \
     vendor/oneplus/salami/proprietary/vendor/etc/display/qdcm_calib_data_samsung_AMB670YF07_FS_dsc_cmd_mode_panel.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_samsung_AMB670YF07_FS_dsc_cmd_mode_panel.json \
     vendor/oneplus/salami/proprietary/vendor/etc/display/qdcm_calib_data_samsung_AMB670YF08_CS_dsc_cmd_mode_panel.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_samsung_AMB670YF08_CS_dsc_cmd_mode_panel.json \
@@ -1393,6 +1394,7 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.cammidasservice-V1-ndk \
     vendor.oplus.hardware.sendextcamcmd-V1-service-impl \
     vendor.oplus.hardware.sendextcamcmd-V2-ndk \
+    EuiccGoogle \
     vendor.qti.camera.aon-impl-1.3.xml \
     vendor.qti.camera.postproc-impl.xml \
     vendor.qti.camera.provider.xml \
