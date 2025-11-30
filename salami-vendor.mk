@@ -1021,6 +1021,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/salami/proprietary/vendor/etc/ltm_config_samsung_AMB670YF07_FS_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_samsung_AMB670YF07_FS_dsc_cmd_mode_panel.xml \
     vendor/oneplus/salami/proprietary/vendor/etc/ltm_config_samsung_AMB670YF08_CS_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_samsung_AMB670YF08_CS_dsc_cmd_mode_panel.xml \
     vendor/oneplus/salami/proprietary/vendor/etc/ltm_config_samsung_AMB670YF08_FS_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_samsung_AMB670YF08_FS_dsc_cmd_mode_panel.xml \
+    vendor/oneplus/salami/proprietary/vendor/firmware/sn100u_22811.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sn100u_22811.bin \
+    vendor/oneplus/salami/proprietary/vendor/firmware/sn100u_22861.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sn100u_22861.bin \
     vendor/oneplus/salami/proprietary/vendor/lib64/camera/arcsoft_calibration_uw.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/arcsoft_calibration_uw.bin \
     vendor/oneplus/salami/proprietary/vendor/lib64/camera/arcsoft_calibration_wt.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/arcsoft_calibration_wt.bin \
     vendor/oneplus/salami/proprietary/vendor/lib64/camera/arcsoft_dc_calibration_t.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/arcsoft_dc_calibration_t.bin \
@@ -1194,7 +1196,6 @@ PRODUCT_PACKAGES += \
     libqsegnet \
     libqshcamera \
     libsfeShiftExtrapolation \
-    libsn100u_fw \
     libswregistrationalgo \
     libsynx \
     libtfestriping \
