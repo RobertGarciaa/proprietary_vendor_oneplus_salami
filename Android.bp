@@ -12314,6 +12314,24 @@ cc_prebuilt_library_shared {
     device_specific: true,
 }
 
+prebuilt_rfsa {
+    name: "odm_lib_rfsa_adsp_libtfadsp_sb4_0_rx_so",
+    filename: "libtfadsp_sb4_0_rx.so",
+    owner: "oneplus",
+    src: "proprietary/odm/lib/rfsa/adsp/libtfadsp_sb4_0_rx.so",
+    relative_install_path: "adsp",
+    device_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "odm_lib_rfsa_adsp_libtfadsp_sb4_0_tx_so",
+    filename: "libtfadsp_sb4_0_tx.so",
+    owner: "oneplus",
+    src: "proprietary/odm/lib/rfsa/adsp/libtfadsp_sb4_0_tx.so",
+    relative_install_path: "adsp",
+    device_specific: true,
+}
+
 android_app_import {
     name: "EuiccGoogle",
     owner: "oneplus",
