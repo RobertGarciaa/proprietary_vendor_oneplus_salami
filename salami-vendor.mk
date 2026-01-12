@@ -1405,5 +1405,6 @@ PRODUCT_PACKAGES += \
     manifest_oplus_cameraextension_aidl.xml \
     manifest_oplus_cammidasservice_aidl.xml \
     manifest_oplus_sendextcamcmd.xml \
+    manifest_secure_element.xml \
     vendor.qti.camera.provider-service_64 \
     vendor.oplus.hardware.cammidasservice-V1-service
