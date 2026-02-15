@@ -1350,7 +1350,6 @@ PRODUCT_PACKAGES += \
     libarcsoft_videoautozoom \
     libcalculator \
     libcalculator_htp \
-    libclstc_fodcolor_csc \
     libcreatebin \
     libcreatebinForBaseretouch \
     libcreatebinForFaceretouch \
