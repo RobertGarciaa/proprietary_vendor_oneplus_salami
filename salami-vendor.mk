@@ -776,6 +776,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/salami/proprietary/odm/etc/init/init.camera_upate.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.camera_upate.rc \
     vendor/oneplus/salami/proprietary/odm/etc/init/init.odm.camera.provider.override.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.odm.camera.provider.override.rc \
     vendor/oneplus/salami/proprietary/odm/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc \
+    vendor/oneplus/salami/proprietary/odm/etc/init/vendor.pixelworks.hardware.feature.irisfeature-service-lazy.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.pixelworks.hardware.feature.irisfeature-service-lazy.rc \
     vendor/oneplus/salami/proprietary/odm/etc/inparm/iris7_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm14.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris7_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm14.txt \
     vendor/oneplus/salami/proprietary/odm/etc/inparm/iris7_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm14_low.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris7_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm14_low.txt \
     vendor/oneplus/salami/proprietary/odm/etc/inparm/iris7_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm17.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris7_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm17.txt \
@@ -1226,6 +1227,7 @@ PRODUCT_PACKAGES += \
     com.oplus.stats.awb \
     com.oplus.stats.pdlib \
     camera.oemlayer \
+    vendor.pixelworks.hardware.display@1.0-impl-1.2-i7 \
     lib2DSlender \
     libAF \
     libAlgoInterface \
@@ -1375,6 +1377,15 @@ PRODUCT_PACKAGES += \
     liboutils \
     libpngwrapper \
     libportrait_repair_ppl3_ocl \
+    libpwirisIoctlWrapper \
+    libpwirisPCS \
+    libpwiriscalibrate \
+    libpwirisfeature \
+    libpwirishalwrapper \
+    libpwirispq \
+    libpwirisservicei7 \
+    libpwirissoft \
+    libpwsoftirisPCS \
     libremosaic_wrapper \
     libremosaiclib_s5k3p9 \
     libremosaiclib_s5kjn1 \
@@ -1383,6 +1394,7 @@ PRODUCT_PACKAGES += \
     libsdk_sr \
     libsharebuffer \
     libsharebuffer_impl \
+    libsnapdragoncolor-pxlw \
     libsnpe_loader \
     libsnpeml \
     libssd_det \
@@ -1413,5 +1425,9 @@ PRODUCT_PACKAGES += \
     manifest_oplus_cammidasservice_aidl.xml \
     manifest_oplus_sendextcamcmd.xml \
     manifest_secure_element.xml \
+    vendor.pixelworks.hardware.display@1.2.xml \
+    vendor.pixelworks.hardware.feature.irisfeature-service.xml \
     vendor.qti.camera.provider-service_64 \
-    vendor.oplus.hardware.cammidasservice-V1-service
+    vendor.oplus.hardware.cammidasservice-V1-service \
+    vendor.pixelworks.hardware.feature.irisfeature-service \
+    irisConfig
