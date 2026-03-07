@@ -8076,6 +8076,33 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libCNamaSDK_vendor",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libCNamaSDK_vendor.so",
+            ],
+            shared_libs: [
+                "libfuai_vendor",
+                "liblog",
+                "libGLESv2",
+                "libEGL",
+                "libm",
+                "libdl",
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libCOppLceTonemapAPI",
     owner: "oneplus",
     strip: {
@@ -8692,6 +8719,34 @@ cc_prebuilt_library_shared {
                 "libdl",
                 "libm",
                 "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libNamaWrapper",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libNamaWrapper.so",
+            ],
+            shared_libs: [
+                "libCNamaSDK_vendor",
+                "libfuai_vendor",
+                "libEGL",
+                "libGLESv3",
+                "liblog",
+                "libc",
+                "libm",
+                "libdl",
             ],
         },
     },
@@ -11321,6 +11376,31 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libfuai_vendor",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libfuai_vendor.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libz",
+                "libm",
+                "libdl",
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libhwconfigurationutil",
     owner: "oneplus",
     strip: {
@@ -12514,6 +12594,162 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libQnnHtp.oplusmss",
+    stem: "libQnnHtp",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/oplusmss/libQnnHtp.so",
+            ],
+            shared_libs: [
+                "libc",
+                "libm",
+                "libdl",
+                "liblog",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "oplusmss",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libQnnHtpPrepare.oplusmss",
+    stem: "libQnnHtpPrepare",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/oplusmss/libQnnHtpPrepare.so",
+            ],
+            shared_libs: [
+                "libc",
+                "libm",
+                "libdl",
+                "liblog",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "oplusmss",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libQnnHtpV73Stub.oplusmss",
+    stem: "libQnnHtpV73Stub",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/oplusmss/libQnnHtpV73Stub.so",
+            ],
+            shared_libs: [
+                "libc",
+                "libm",
+                "libdl",
+                "liblog",
+                "libcdsprpc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "oplusmss",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libQnnSystem.oplusmss",
+    stem: "libQnnSystem",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/oplusmss/libQnnSystem.so",
+            ],
+            shared_libs: [
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "oplusmss",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libaiboost.oplusmss",
+    stem: "libaiboost",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/oplusmss/libaiboost.so",
+            ],
+            shared_libs: [
+                "libm",
+                "libdl",
+                "liblog",
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "oplusmss",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libaiboost_qnn_external_delegate.oplusmss",
+    stem: "libaiboost_qnn_external_delegate",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/oplusmss/libaiboost_qnn_external_delegate.so",
+            ],
+            shared_libs: [
+                "libm",
+                "liblog",
+                "libdl",
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "oplusmss",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "vendor.oplus.hardware.camera_rfi-V1-ndk",
     owner: "oneplus",
     strip: {
@@ -12741,17 +12977,13 @@ prebuilt_rfsa {
     device_specific: true,
 }
 
-android_app_import {
-    name: "EuiccGoogle",
+prebuilt_rfsa {
+    name: "odm_lib_rfsa_adsp_oplusmss_unsigned_libQnnHtpV73Skel_so",
+    filename: "libQnnHtpV73Skel.so",
     owner: "oneplus",
-    apk: "proprietary/product/priv-app/EuiccGoogle/EuiccGoogle.apk",
-    preprocessed: true,
-    presigned: true,
-    dex_preopt: {
-        enabled: false,
-    },
-    privileged: true,
-    product_specific: true,
+    src: "proprietary/odm/lib/rfsa/adsp/oplusmss/unsigned/libQnnHtpV73Skel.so",
+    relative_install_path: "adsp/oplusmss/unsigned",
+    device_specific: true,
 }
 
 prebuilt_etc_xml {

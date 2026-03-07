@@ -878,8 +878,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/salami/proprietary/odm/etc/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel.dat:$(TARGET_COPY_OUT_ODM)/etc/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel.dat \
     vendor/oneplus/salami/proprietary/odm/etc/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel.fw:$(TARGET_COPY_OUT_ODM)/etc/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel.fw \
     vendor/oneplus/salami/proprietary/odm/etc/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_ODM)/etc/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel.xml \
-    vendor/oneplus/salami/proprietary/odm/etc/libnfc-mtp-SN100.conf_22811:$(TARGET_COPY_OUT_ODM)/etc/libnfc-mtp-SN100.conf_22811 \
-    vendor/oneplus/salami/proprietary/odm/etc/libnfc-mtp-SN100.conf_22861:$(TARGET_COPY_OUT_ODM)/etc/libnfc-mtp-SN100.conf_22861 \
     vendor/oneplus/salami/proprietary/odm/etc/lvacfs_params/2mic/LVACFS_Calibration360_2mic.dat:$(TARGET_COPY_OUT_ODM)/etc/lvacfs_params/2mic/LVACFS_Calibration360_2mic.dat \
     vendor/oneplus/salami/proprietary/odm/etc/lvacfs_params/2mic/LVACFS_Configuration.txt:$(TARGET_COPY_OUT_ODM)/etc/lvacfs_params/2mic/LVACFS_Configuration.txt \
     vendor/oneplus/salami/proprietary/odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID10_MIC_VR.txt:$(TARGET_COPY_OUT_ODM)/etc/lvacfs_params/2mic/LVACFS_Parameter_ID10_MIC_VR.txt \
@@ -944,23 +942,30 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/salami/proprietary/odm/etc/sensor/config/kailua_mtp_icm4x6xx.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kailua_mtp_icm4x6xx.json \
     vendor/oneplus/salami/proprietary/odm/etc/sensor/config/kailua_mtp_mmc56x3x.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kailua_mtp_mmc56x3x.json \
     vendor/oneplus/salami/proprietary/odm/etc/sensor/config/kailua_mtp_oplus_flight_detect.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kailua_mtp_oplus_flight_detect.json \
+    vendor/oneplus/salami/proprietary/odm/etc/sensor/config/kailua_mtp_oplus_flight_scene.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kailua_mtp_oplus_flight_scene.json \
     vendor/oneplus/salami/proprietary/odm/etc/sensor/config/kailua_mtp_oplus_lay.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kailua_mtp_oplus_lay.json \
     vendor/oneplus/salami/proprietary/odm/etc/sensor/config/kailua_mtp_pocket.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kailua_mtp_pocket.json \
     vendor/oneplus/salami/proprietary/odm/etc/sensor/config/kailua_mtp_sx933x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kailua_mtp_sx933x_0.json \
     vendor/oneplus/salami/proprietary/odm/etc/sensor/config/kailua_mtp_sx933x_down_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kailua_mtp_sx933x_down_0.json \
     vendor/oneplus/salami/proprietary/odm/etc/sensor/config/lux_aod.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/lux_aod.json \
+    vendor/oneplus/salami/proprietary/odm/etc/sensor/config/qsh_ble.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/qsh_ble.json \
     vendor/oneplus/salami/proprietary/odm/etc/sensor/config/salami_qrd_ois_system.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/salami_qrd_ois_system.json \
     vendor/oneplus/salami/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
     vendor/oneplus/salami/proprietary/odm/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_ODM)/etc/usecaseKvManager.xml \
-    vendor/oneplus/salami/proprietary/odm/etc/wifi/kiwi/bdwlan.b0a:$(TARGET_COPY_OUT_ODM)/etc/wifi/kiwi/bdwlan.b0a \
-    vendor/oneplus/salami/proprietary/odm/etc/wifi/kiwi/bdwlan.b0e:$(TARGET_COPY_OUT_ODM)/etc/wifi/kiwi/bdwlan.b0e \
-    vendor/oneplus/salami/proprietary/odm/etc/wifi/kiwi/bdwlan.b0i:$(TARGET_COPY_OUT_ODM)/etc/wifi/kiwi/bdwlan.b0i \
     vendor/oneplus/salami/proprietary/odm/etc/wifi/kiwi/bdwlan.elf:$(TARGET_COPY_OUT_ODM)/etc/wifi/kiwi/bdwlan.elf \
     vendor/oneplus/salami/proprietary/odm/etc/wifi/kiwi/regdb.bin:$(TARGET_COPY_OUT_ODM)/etc/wifi/kiwi/regdb.bin \
-    vendor/oneplus/salami/proprietary/odm/firmware/fastchg/22861/bms_heating_config.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/22861/bms_heating_config.txt \
-    vendor/oneplus/salami/proprietary/odm/firmware/fastchg/22861/charging_hyper_mode_config.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/22861/charging_hyper_mode_config.txt \
-    vendor/oneplus/salami/proprietary/odm/firmware/fastchg/22861/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/22861/charging_thermal_config_default.txt \
+    vendor/oneplus/salami/proprietary/odm/firmware/fastchg/22811/bms_heating_config.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/22811/bms_heating_config.txt \
+    vendor/oneplus/salami/proprietary/odm/firmware/fastchg/22811/charging_hyper_mode_config.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/22811/charging_hyper_mode_config.txt \
+    vendor/oneplus/salami/proprietary/odm/firmware/fastchg/22811/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/22811/charging_thermal_config_default.txt \
     vendor/oneplus/salami/proprietary/odm/firmware/fastchg/smart_chg_config_table.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/smart_chg_config_table.txt \
+    vendor/oneplus/salami/proprietary/odm/firmware/iris7.fw:$(TARGET_COPY_OUT_ODM)/firmware/iris7.fw \
+    vendor/oneplus/salami/proprietary/odm/firmware/iris7_ccf1.fw:$(TARGET_COPY_OUT_ODM)/firmware/iris7_ccf1.fw \
+    vendor/oneplus/salami/proprietary/odm/firmware/iris7_ccf2.fw:$(TARGET_COPY_OUT_ODM)/firmware/iris7_ccf2.fw \
+    vendor/oneplus/salami/proprietary/odm/firmware/iris7_ccf3.fw:$(TARGET_COPY_OUT_ODM)/firmware/iris7_ccf3.fw \
+    vendor/oneplus/salami/proprietary/odm/firmware/iris7_ccf4.fw:$(TARGET_COPY_OUT_ODM)/firmware/iris7_ccf4.fw \
+    vendor/oneplus/salami/proprietary/odm/firmware/pxlw_i7_panel_samsung_amb670yf07_cs_1440_3216_dsc_cmd.fw:$(TARGET_COPY_OUT_ODM)/firmware/pxlw_i7_panel_samsung_amb670yf07_cs_1440_3216_dsc_cmd.fw \
+    vendor/oneplus/salami/proprietary/odm/firmware/pxlw_i7_panel_samsung_amb670yf08_cs_1440_3216_dsc_cmd.fw:$(TARGET_COPY_OUT_ODM)/firmware/pxlw_i7_panel_samsung_amb670yf08_cs_1440_3216_dsc_cmd.fw \
+    vendor/oneplus/salami/proprietary/odm/firmware/pxlw_i7_vtdr6130_fhd_plus_vid.fw:$(TARGET_COPY_OUT_ODM)/firmware/pxlw_i7_vtdr6130_fhd_plus_vid.fw \
     vendor/oneplus/salami/proprietary/odm/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_ODM)/firmware/tfa98xx.cnt \
     vendor/oneplus/salami/proprietary/odm/firmware/tp/22811/FW_S3908_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/22811/FW_S3908_SAMSUNG.img \
     vendor/oneplus/salami/proprietary/odm/firmware/tp/22811/FW_S3908_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/22811/FW_S3908_SAMSUNG_FAE.img \
@@ -994,6 +999,16 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/salami/proprietary/odm/lib64/camera/libafCustomParamWide.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libafCustomParamWide.bin \
     vendor/oneplus/salami/proprietary/odm/lib64/camera/revision.txt:$(TARGET_COPY_OUT_ODM)/lib64/camera/revision.txt \
     vendor/oneplus/salami/proprietary/odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_ODM)/vendor/etc/wifi/WCNSS_qcom_cfg.ini \
+    vendor/oneplus/salami/proprietary/odm/vendor/firmware/antdtx.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b00 \
+    vendor/oneplus/salami/proprietary/odm/vendor/firmware/antdtx.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b01 \
+    vendor/oneplus/salami/proprietary/odm/vendor/firmware/antdtx.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b02 \
+    vendor/oneplus/salami/proprietary/odm/vendor/firmware/antdtx.b03:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b03 \
+    vendor/oneplus/salami/proprietary/odm/vendor/firmware/antdtx.b04:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b04 \
+    vendor/oneplus/salami/proprietary/odm/vendor/firmware/antdtx.b05:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b05 \
+    vendor/oneplus/salami/proprietary/odm/vendor/firmware/antdtx.b06:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b06 \
+    vendor/oneplus/salami/proprietary/odm/vendor/firmware/antdtx.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b07 \
+    vendor/oneplus/salami/proprietary/odm/vendor/firmware/antdtx.b08:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b08 \
+    vendor/oneplus/salami/proprietary/odm/vendor/firmware/antdtx.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.mdt \
     vendor/oneplus/salami/proprietary/odm/vendor/firmware/uff_gx.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_gx.b00 \
     vendor/oneplus/salami/proprietary/odm/vendor/firmware/uff_gx.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_gx.b01 \
     vendor/oneplus/salami/proprietary/odm/vendor/firmware/uff_gx.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_gx.b02 \
@@ -1014,13 +1029,13 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/salami/proprietary/odm/vendor/firmware/uff_spi.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_spi.b07 \
     vendor/oneplus/salami/proprietary/odm/vendor/firmware/uff_spi.b08:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_spi.b08 \
     vendor/oneplus/salami/proprietary/odm/vendor/firmware/uff_spi.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_spi.mdt \
-    vendor/oneplus/salami/proprietary/product/etc/permissions/privapp-permissions-euiccgoogle.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-euiccgoogle.xml \
     vendor/oneplus/salami/proprietary/vendor/etc/display/qdcm_calib_data_samsung_AMB670YF07_CS_dsc_cmd_mode_panel.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_samsung_AMB670YF07_CS_dsc_cmd_mode_panel.json \
     vendor/oneplus/salami/proprietary/vendor/etc/display/qdcm_calib_data_samsung_AMB670YF07_FS_dsc_cmd_mode_panel.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_samsung_AMB670YF07_FS_dsc_cmd_mode_panel.json \
     vendor/oneplus/salami/proprietary/vendor/etc/display/qdcm_calib_data_samsung_AMB670YF08_CS_dsc_cmd_mode_panel.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_samsung_AMB670YF08_CS_dsc_cmd_mode_panel.json \
     vendor/oneplus/salami/proprietary/vendor/etc/display/qdcm_calib_data_samsung_AMB670YF08_FS_dsc_cmd_mode_panel.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_samsung_AMB670YF08_FS_dsc_cmd_mode_panel.json \
     vendor/oneplus/salami/proprietary/vendor/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider-service_64.rc \
     vendor/oneplus/salami/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
+    vendor/oneplus/salami/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/oneplus/salami/proprietary/vendor/etc/ltm_config_samsung_AMB670YF07_CS_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_samsung_AMB670YF07_CS_dsc_cmd_mode_panel.xml \
     vendor/oneplus/salami/proprietary/vendor/etc/ltm_config_samsung_AMB670YF07_FS_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_samsung_AMB670YF07_FS_dsc_cmd_mode_panel.xml \
     vendor/oneplus/salami/proprietary/vendor/etc/ltm_config_samsung_AMB670YF08_CS_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_samsung_AMB670YF08_CS_dsc_cmd_mode_panel.xml \
@@ -1238,6 +1253,7 @@ PRODUCT_PACKAGES += \
     libAncSegMultiSdk \
     libAncSegmentSdk \
     libBokehPre \
+    libCNamaSDK_vendor \
     libCOppLceTonemapAPI \
     libCS \
     libCaptureBokeh \
@@ -1262,6 +1278,7 @@ PRODUCT_PACKAGES += \
     libFilterWrapper \
     libHIS \
     libImageWarpMask \
+    libNamaWrapper \
     libOGLManager \
     libOPAlgoCamAIBeautyBodyDetection \
     libOPAlgoCamAiBeautyEyeRetouchCn \
@@ -1362,6 +1379,7 @@ PRODUCT_PACKAGES += \
     libexif-jpeg-aps \
     libextendfile \
     libextensionlayer \
+    libfuai_vendor \
     libhwconfigurationutil \
     libhyperlapse \
     libiceainr \
@@ -1407,6 +1425,12 @@ PRODUCT_PACKAGES += \
     libyuv2 \
     libyuvwrapper \
     libziparchive_odm \
+    libQnnHtp.oplusmss \
+    libQnnHtpPrepare.oplusmss \
+    libQnnHtpV73Stub.oplusmss \
+    libQnnSystem.oplusmss \
+    libaiboost.oplusmss \
+    libaiboost_qnn_external_delegate.oplusmss \
     vendor.oplus.hardware.camera_rfi-V1-ndk \
     vendor.oplus.hardware.camera_rfi-V1-service-impl \
     vendor.oplus.hardware.cameraextension-V1-service-impl \
@@ -1415,7 +1439,7 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.sendextcamcmd-V2-ndk \
     odm_lib_rfsa_adsp_libtfadsp_sb4_0_rx_so \
     odm_lib_rfsa_adsp_libtfadsp_sb4_0_tx_so \
-    EuiccGoogle \
+    odm_lib_rfsa_adsp_oplusmss_unsigned_libQnnHtpV73Skel_so \
     vendor.qti.camera.aon-impl-1.3.xml \
     vendor.qti.camera.postproc-impl.xml \
     vendor.qti.camera.provider.xml \
