@@ -958,14 +958,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/salami/proprietary/odm/firmware/fastchg/22811/charging_hyper_mode_config.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/22811/charging_hyper_mode_config.txt \
     vendor/oneplus/salami/proprietary/odm/firmware/fastchg/22811/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/22811/charging_thermal_config_default.txt \
     vendor/oneplus/salami/proprietary/odm/firmware/fastchg/smart_chg_config_table.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/smart_chg_config_table.txt \
-    vendor/oneplus/salami/proprietary/odm/firmware/iris7.fw:$(TARGET_COPY_OUT_ODM)/firmware/iris7.fw \
-    vendor/oneplus/salami/proprietary/odm/firmware/iris7_ccf1.fw:$(TARGET_COPY_OUT_ODM)/firmware/iris7_ccf1.fw \
-    vendor/oneplus/salami/proprietary/odm/firmware/iris7_ccf2.fw:$(TARGET_COPY_OUT_ODM)/firmware/iris7_ccf2.fw \
-    vendor/oneplus/salami/proprietary/odm/firmware/iris7_ccf3.fw:$(TARGET_COPY_OUT_ODM)/firmware/iris7_ccf3.fw \
-    vendor/oneplus/salami/proprietary/odm/firmware/iris7_ccf4.fw:$(TARGET_COPY_OUT_ODM)/firmware/iris7_ccf4.fw \
-    vendor/oneplus/salami/proprietary/odm/firmware/pxlw_i7_panel_samsung_amb670yf07_cs_1440_3216_dsc_cmd.fw:$(TARGET_COPY_OUT_ODM)/firmware/pxlw_i7_panel_samsung_amb670yf07_cs_1440_3216_dsc_cmd.fw \
-    vendor/oneplus/salami/proprietary/odm/firmware/pxlw_i7_panel_samsung_amb670yf08_cs_1440_3216_dsc_cmd.fw:$(TARGET_COPY_OUT_ODM)/firmware/pxlw_i7_panel_samsung_amb670yf08_cs_1440_3216_dsc_cmd.fw \
-    vendor/oneplus/salami/proprietary/odm/firmware/pxlw_i7_vtdr6130_fhd_plus_vid.fw:$(TARGET_COPY_OUT_ODM)/firmware/pxlw_i7_vtdr6130_fhd_plus_vid.fw \
     vendor/oneplus/salami/proprietary/odm/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_ODM)/firmware/tfa98xx.cnt \
     vendor/oneplus/salami/proprietary/odm/firmware/tp/22811/FW_S3908_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/22811/FW_S3908_SAMSUNG.img \
     vendor/oneplus/salami/proprietary/odm/firmware/tp/22811/FW_S3908_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/22811/FW_S3908_SAMSUNG_FAE.img \
